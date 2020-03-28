@@ -1,0 +1,1 @@
+本来是应该按照成长篇中的方法，用crosstool-ng生成交叉编译工具链以后，再编译glibc源码，生成glibc共享链接库的。结果发现crosstool-ng在生成交叉编译工具链的时候也会生成glibc的共享链接库。在~/x-tools/armv5-unknown-linux-gnueabi/armv5-unknown-linux-gnueabi/sysroot/lib目录下。所以最后是把这个目录下的.so文件拷贝到arm平台使用。
