@@ -1,6 +1,6 @@
 glibc升级从2.13到2.29
 查看glibc版本 cd /lib
-1.	首先从下载glibc源码。
+1.	首先从下载glibc源码。http://ftp.gnu.org/gnu/libc/
 2.	使用交叉编译工具编译glibc的动态链接库。
   I.	注意：不能在glibc源码所在的文件夹编译，可以在glibc源码的上一级目录建立glibc_build目录。需要指定--prefix参数。
   II.	在glibc_build目录下执行：
